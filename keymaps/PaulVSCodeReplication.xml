@@ -3,6 +3,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="f2" />
@@ -10,18 +11,32 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.DeleteRows" />
+  <action id="DatabaseView.CopyAction" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="Diff.ShowDiff" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDeleteLine" />
-  <action id="EditorSelectWord" />
+  <action id="EditorDuplicate" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -41,8 +56,12 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SendEOF" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
