@@ -21,11 +21,19 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
+  <action id="DecrementWindowHeight" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
+  <action id="DuplicatesForm.SendToLeft" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
   <action id="EditorDeleteLine" />
   <action id="EditorDuplicate" />
@@ -36,6 +44,7 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoHome" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
@@ -43,6 +52,10 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="Go To Tab #1">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="GotoBookmark1" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
@@ -51,7 +64,10 @@
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="IncrementWindowHeight" />
   <action id="JumpToLastWindow" />
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -63,6 +79,9 @@
   <action id="PreviousTab" />
   <action id="QuickChangeScheme" />
   <action id="RenameElement" />
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -71,10 +90,18 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+  </action>
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleBookmark1" />
+  <action id="ToggleBookmark2" />
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="openAssertEqualsDiff" />
 </keymap>
