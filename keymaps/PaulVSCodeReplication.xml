@@ -64,6 +64,7 @@
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="GotoNextError" />
   <action id="IncrementWindowHeight" />
   <action id="JumpToLastWindow" />
   <action id="MoveStatementDown" />
@@ -78,7 +79,9 @@
   </action>
   <action id="PreviousTab" />
   <action id="QuickChangeScheme" />
-  <action id="RenameElement" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
